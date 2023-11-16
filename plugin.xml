@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-        id="cordova-plugin-admob"
+        id="cordova-plugin-admob-ads"
         version="1.0.0">
-    <name>AdMobPlugin</name>
-    <description>Cordova AdMob Plugin</description>
+    <name>adMob ads for Cordova App</name>
+    <description>Cordova plugin to add advertisements to Mobile app (via Google AdMob).</description>
     <license>MIT</license>
-    <keywords>cordova,admob</keywords>
+    <keywords>cordova,plugin,ads,admob,google,advertisements,phonegap,app,ios,android,ecosystem:cordova,monetization,cordova-android,cordova-ios,promise,promises,android,ios,ionic</keywords>
+  
 
     <engines>
-        <engine name="cordova" version=">=3.0.0"/>
+        <engine name="cordova" version=">=5.0.0" />
+        <engine name="cordova-android" version=">=7.0.0" />
     </engines>
+    <repo>https://github.com/avsquare-technologies/cordova-plugin-admob-ads.git</repo>
+    <issue>https://github.com/avsquare-technologies/cordova-plugin-admob-ads/issues</issue>
 
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
@@ -17,6 +21,12 @@
                 <param name="android-package" value="com.example.admob.AdMobPlugin"/>
             </feature>
         </config-file>
+        
+
+
+        <framework src="com.google.android.gms:play-services-ads:21.5.0" />
+      
+
     </platform>
 
     <platform name="ios">
@@ -25,5 +35,7 @@
                 <param name="ios-package" value="AdMobPlugin"/>
             </feature>
         </config-file>
+        <source-file src="src/ios/AdMobPlugin.m"/>
+        <preference name="disableSDKCrashReporting" default="false" />
     </platform>
 </plugin>
