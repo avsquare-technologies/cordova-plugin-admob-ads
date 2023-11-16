@@ -39,7 +39,7 @@ public class AdMobPlugin extends CordovaPlugin {
 
             adView = new AdView(cordova.getActivity());
             adView.setAdSize(getAdSize(adSize));
-            adView.setAdUnitId("YOUR_BANNER_AD_UNIT_ID");
+            adView.setAdUnitId("ca-app-pub-3727769271706551/1368848100");
 
             AdRequest adRequest = new AdRequest.Builder().build();
             adView.loadAd(adRequest);
@@ -59,7 +59,7 @@ public class AdMobPlugin extends CordovaPlugin {
                 interstitialAd.show();
             } else {
                 interstitialAd = new InterstitialAd(cordova.getActivity());
-                interstitialAd.setAdUnitId("YOUR_INTERSTITIAL_AD_UNIT_ID");
+                interstitialAd.setAdUnitId("ca-app-pub-3727769271706551/5466492322");
 
                 AdRequest adRequest = new AdRequest.Builder().build();
                 interstitialAd.loadAd(adRequest);

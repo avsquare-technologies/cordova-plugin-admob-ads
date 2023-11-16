@@ -1,0 +1,56 @@
+{
+  "name": "cordova-plugin-admob-ads",
+  "version": "1.0.0",
+  "description": "adMob For Cordova Projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "AV Square Technologies",
+    "email": "info@websitedesignchennai.com"
+  },
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avsquare-technologies/cordova-plugin-admob-ads.git"
+  },
+  "keywords": [
+    "cordova",
+    "plugin",
+    "ads",
+    "app",
+    "ios",
+    "android",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "promise",
+    "promises",
+    "android",
+    "ios",
+    "itunes",
+    "google",
+    "play",
+    "ionic",
+    "phonegap",
+    "appstore"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/avsquare-technologies/cordova-plugin-admob-ads/issues"
+  },
+  "homepage": "https://github.com/avsquare-technologies/cordova-plugin-admob-ads#readme",
+  "dependencies": {},
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-admob-ads": {
+        "ADMOB_APP_ID": "ca-app-pub-3727769271706551~5397036109"
+      }
+      // Add other Cordova plugins as needed
+    },
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  }
+}
