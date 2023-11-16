@@ -40,17 +40,6 @@
     "url": "https://github.com/avsquare-technologies/cordova-plugin-admob-ads/issues"
   },
   "homepage": "https://github.com/avsquare-technologies/cordova-plugin-admob-ads#readme",
-  "dependencies": {},
-  "cordova": {
-    "plugins": {
-      "cordova-plugin-admob-ads": {
-        "ADMOB_APP_ID": "ca-app-pub-3727769271706551~5397036109"
-      }
-      // Add other Cordova plugins as needed
-    },
-    "platforms": [
-      "android",
-      "ios"
-    ]
-  }
+  "dependencies": {}
+   
 }
